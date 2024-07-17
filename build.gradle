@@ -17,6 +17,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation group: 'org.telegram', name: 'telegrambots', version: '6.8.0'
+	implementation group: 'org.postgresql', name: 'postgresql', version: '42.7.3'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
